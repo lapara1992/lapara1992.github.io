@@ -1,0 +1,69 @@
+.mediaViewInfo {
+	--web-view-name: SPRK_default_preset_name_web_1920 – 1;
+	--web-view-id: SPRK_default_preset_name_web_1920__1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: SPRK_default_preset_name_web_1920__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#SPRK_default_preset_name_web_1920__1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: SPRK_default_preset_name_web_1920 – 1;
+	--web-view-id: SPRK_default_preset_name_web_1920__1;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_1 {
+	fill: rgba(243,12,12,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 363px;
+	height: 142px;
+	left: 371px;
+	top: 433px;
+}
+#juan_se_fue_a_casa {
+	left: 462px;
+	top: 490px;
+	position: absolute;
+	overflow: visible;
+	width: 158px;
+	white-space: nowrap;
+	--web-animation: fadein 2s ease-out;
+	--web-action-type: page;
+	--web-action-target: main.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
