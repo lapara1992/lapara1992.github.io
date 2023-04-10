@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revolve</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="particles.js"></script>
+  
+</head>
+
+
+
+
+<h1> Inteligence solutions</h1>
+
+<div class="menu-container">
+    <div class="menu-1">Cloud based solutions</div>
+    <div class="menu-2">Bussines inteligence</div>
+  </div>
+  
+
+<body style="background-color: rgb(228, 228, 228);">
+    
+     <div id="particles-js"></div>
+  </body>
+
+
+
+
+
+
+<body>
+
+
+    <head>
+       
+        <style>
+
+            
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            header {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 20px;
+                background-color: #fff;
+                position: fixed;
+                opacity: 70%;
+            }
+            .logo {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                
+            }
+            
+            nav {
+                display: flex;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+            }
+            nav li {
+                float: right;
+            }
+            nav a {
+                color: #333;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px;
+                transition: all 0.3s ease;
+                border-radius: 5px;
+            }
+            nav a:hover {
+                background-color: #333;
+                color: #fff;
+            }
+            .menu-icon {
+                display: none;
+                font-size: 24px;
+                cursor: pointer;
+            }
+
+    
+
+
+
+        @media (max-width: 600px) {h1{
+        position: fixed;
+        top: 40%;
+        left: 2%;
+        font-size: 60px;
+        font-weight: semibold;}
+        }
+
+        .logo{
+            position: absolute;
+            top: 0;
+            left: 0;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="revolve.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+           
+        </header>
+        
+        
+        
+        <script>
+
+           particlesJS('particles-js', {
+            "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#000000"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 6
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.4,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 30,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#000000",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 0.1,
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+             });
+            var menuIcon = document.querySelector('.menu-icon');
+            var nav = document.querySelector('nav');
+            
+            menuIcon.addEventListener('click', function() {
+                nav.classList.toggle('active'); 
+            });
+        </script>
+    </body>
+      
+  
+
+
+  
+</body>
+
+
+    
+
+
+
+
+
